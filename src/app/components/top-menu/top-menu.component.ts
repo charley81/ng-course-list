@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-top-menu',
@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class TopMenuComponent {
   @Input() title!: string;
-  @Input() openSidebar!: boolean;
+  @Output() toggleSidebar = new EventEmitter();
 }

@@ -10,11 +10,11 @@ export class AppComponent {
   openSidebar: boolean = false;
   title = 'My Course List';
   links: Navlink[] = [
-    { path: '/', text: 'Home' },
-    { path: '/courses', text: 'Courses' },
+    { path: '/', text: 'Home', icon: 'heroHomeSolid' },
+    { path: '/courses', text: 'Courses', icon: 'heroListBulletSolid' },
   ];
 
-  toggleSidebar() {
+  toggleSidebarStatus() {
     this.openSidebar = !this.openSidebar;
   }
 }

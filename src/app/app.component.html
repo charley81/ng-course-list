@@ -1,2 +1,5 @@
-<app-top-menu [title]="title"></app-top-menu>
+<app-top-menu
+  [title]="title"
+  (toggleSidebar)="toggleSidebarStatus()"
+></app-top-menu>
 <app-sidebar [openSidebar]="openSidebar" [links]="links"></app-sidebar>
