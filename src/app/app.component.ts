@@ -10,7 +10,7 @@ export class AppComponent {
   openSidebar: boolean = false;
   title = 'My Course List';
   links: Navlink[] = [
-    { path: '/', text: 'Home', icon: 'heroHomeSolid' },
+    { path: '/home', text: 'Home', icon: 'heroHomeSolid' },
     { path: '/courses', text: 'Courses', icon: 'heroListBulletSolid' },
   ];
 

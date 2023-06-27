@@ -1,0 +1,14 @@
+<section>
+  <h3>Course Outline</h3>
+  <ul>
+    <li *ngFor="let lesson of lessons$ | async" (click)="selectLesson(lesson)">
+      {{ lesson.title }}
+    </li>
+  </ul>
+</section>
+
+<section class="selected">
+  <h3>You selected</h3>
+  <pre *ngIf="selectedLesson; else elseBlock">{{ selectedLesson | json }}</pre>
+  <ng-template #elseBlock>Please select a lesson</ng-template>
+</section>

@@ -1,0 +1,18 @@
+section {
+  padding: 1rem;
+}
+
+ul {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+li {
+  cursor: pointer;
+  transition: var(--transition);
+  
+  &:hover {
+    color: var(--color-primary);
+  }
+}

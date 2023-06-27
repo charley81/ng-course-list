@@ -4,8 +4,12 @@
   }"
 >
   <nav>
-    <a *ngFor="let link of links" routerLink="link.path"
+    <a *ngFor="let link of links" routerLink="{{ link.path }}"
       ><ng-icon name="{{ link.icon }}"></ng-icon> {{ link.text }}</a
     >
   </nav>
 </aside>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

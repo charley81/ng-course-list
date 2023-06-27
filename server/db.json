@@ -1,0 +1,51 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Course A",
+      "description": "Learn the fundamentals of course B",
+      "percentComplete": 19,
+      "favorite": false
+    },
+    {
+      "id": 2,
+      "title": "Course B",
+      "description": "Learn the fundamentals of course C",
+      "percentComplete": 28,
+      "favorite": true
+    },
+    {
+      "id": 3,
+      "title": "Course C",
+      "description": "Learn the fundamentals of course A",
+      "percentComplete": 0,
+      "favorite": false
+    }
+  ],
+  "lessons": [
+    {
+      "id": "10",
+      "title": "Lesson A"
+    },
+    {
+      "id": "11",
+      "title": "Lesson B"
+    },
+    {
+      "id": "12",
+      "title": "Lesson C"
+    },
+    {
+      "id": "13",
+      "title": "Lesson D"
+    },
+    {
+      "id": "14",
+      "title": "Lesson E"
+    },
+    {
+      "id": "15",
+      "title": "Lesson F"
+    }
+  ]
+}
